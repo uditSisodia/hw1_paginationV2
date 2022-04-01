@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style>
+      button {
+        padding: 5px;
+        margin: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      #ourTable {
+        padding: 15px;
+        border: 1px solid black;
+        width: 80%;
+        text-align: center;
+      }
+      thead {
+        border: 1px solid black;
+      }
+      tr {
+        text-align: center;
+      }
+      th {
+        border-bottom: 1px solid black;
+      }
+      td {
+        padding: 5px;
+      }
+      #con3 {
+        border: 1px solid black;
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="container">
+      <table id="ourTable">
+        <thead>
+          <tr>
+            <th>RollNo</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div class="container" id="con3">
+        <div id="pagination-wrapper"></div>
+        <select id="myRange">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </div>
+    <!--
+    <div class="container" id="con3">
+      <div id="pagination-wrapper"></div>
+      <select id="myRange">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>-->
+    <script src="./index.js"></script>
+  </body>
+</html>
